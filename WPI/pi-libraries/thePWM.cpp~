@@ -1,0 +1,91 @@
+#include "thePWM.h"
+
+using namespace nFPGA::nFRC_2017_17_0_2;
+
+tSystemInterface* thePWM::getSystemInterface()
+{
+   return NULL;
+}
+
+void thePWM::writeConfig(tPWM::tConfig value, tRioStatusCode *status)
+{
+}
+
+void thePWM::writeConfig_Period(unsigned short value, tRioStatusCode *status)
+{
+}
+
+void thePWM::writeConfig_MinHigh(unsigned short value, tRioStatusCode *status)
+{
+}
+
+tPWM::tConfig thePWM::readConfig(tRioStatusCode *status)
+{
+	tConfig config;
+	return config;
+}
+
+unsigned short thePWM::readConfig_Period(tRioStatusCode *status)
+{
+	return 0;
+}
+
+unsigned short thePWM::readConfig_MinHigh(tRioStatusCode *status)
+{
+	return 0;
+}
+
+unsigned short thePWM::readLoopTiming(tRioStatusCode *status)
+{
+	return 0;
+}
+
+void thePWM::writePeriodScaleMXP(unsigned char bitfield_index, unsigned char value, tRioStatusCode *status)
+{
+}
+
+unsigned char thePWM::readPeriodScaleMXP(unsigned char bitfield_index, tRioStatusCode *status)
+{
+	return 0;
+}
+
+void thePWM::writePeriodScaleHdr(unsigned char bitfield_index, unsigned char value, tRioStatusCode *status)
+{
+}
+
+unsigned char thePWM::readPeriodScaleHdr(unsigned char bitfield_index, tRioStatusCode *status)
+{
+	return 0;
+}
+
+void thePWM::writeZeroLatch(unsigned char bitfield_index, bool value, tRioStatusCode *status)
+{
+}
+
+bool thePWM::readZeroLatch(unsigned char bitfield_index, tRioStatusCode *status)
+{
+}
+
+void thePWM::writeHdr(unsigned char reg_index, unsigned short value, tRioStatusCode *status)
+{
+}
+
+unsigned short thePWM::readHdr(unsigned char reg_index, tRioStatusCode *status)
+{
+	return 0;
+}
+
+void thePWM::writeMXP(unsigned char reg_index, unsigned short value, tRioStatusCode *status)
+{
+}
+
+unsigned short thePWM::readMXP(unsigned char reg_index, tRioStatusCode *status)
+{
+	return 0;
+}
+
+tPWM* tPWM::create(tRioStatusCode *status)
+{
+	return (tPWM*)new thePWM();
+}
+

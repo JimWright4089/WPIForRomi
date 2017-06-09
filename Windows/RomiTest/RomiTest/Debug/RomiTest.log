@@ -1,0 +1,44 @@
+﻿Build started 6/8/2017 1:04:13 PM.
+     1>Project "E:\JimsCode\WPI\RomiTest\RomiTest\RomiTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RomiEncoder.cpp RomiMain.cpp
+         RomiMain.cpp
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(570): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(582): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(621): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(119): warning C4003: not enough actual parameters for macro 'max'
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(581): warning C4003: not enough actual parameters for macro 'max'
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(607): warning C4003: not enough actual parameters for macro 'max'
+         RomiEncoder.cpp
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(570): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(582): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\hashing.h(621): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(119): warning C4003: not enough actual parameters for macro 'max'
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(581): warning C4003: not enough actual parameters for macro 'max'
+     1>e:\jimscode\wpi\ntcore-master\wpiutil\include\llvm\mathextras.h(607): warning C4003: not enough actual parameters for macro 'max'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JimsCode\WPI\RomiTest\Debug\RomiTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JimsCode\WPI\RomiTest\Debug\RomiTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JimsCode\WPI\RomiTest\Debug\RomiTest.lib" /MACHINE:X86 Debug\RomiEncoder.obj
+         Debug\RomiMain.obj
+         Debug\RomiMotor.obj
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual class frc::Error & __thiscall frc::ErrorBase::GetError(void)" (?GetError@ErrorBase@frc@@UAEAAVError@2@XZ)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual class frc::Error const & __thiscall frc::ErrorBase::GetError(void)const " (?GetError@ErrorBase@frc@@UBEABVError@2@XZ)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::SetErrnoError(class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,int)const " (?SetErrnoError@ErrorBase@frc@@UBEXVStringRef@llvm@@00H@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::SetImaqError(int,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,int)const " (?SetImaqError@ErrorBase@frc@@UBEXHVStringRef@llvm@@00H@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::SetError(int,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,int)const " (?SetError@ErrorBase@frc@@UBEXHVStringRef@llvm@@00H@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::SetErrorRange(int,int,int,int,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,int)const " (?SetErrorRange@ErrorBase@frc@@UBEXHHHHVStringRef@llvm@@00H@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::SetWPIError(class llvm::StringRef,int,class llvm::StringRef,class llvm::StringRef,class llvm::StringRef,int)const " (?SetWPIError@ErrorBase@frc@@UBEXVStringRef@llvm@@H000H@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::CloneError(class frc::ErrorBase const &)const " (?CloneError@ErrorBase@frc@@UBEXABV12@@Z)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::ErrorBase::ClearError(void)const " (?ClearError@ErrorBase@frc@@UBEXXZ)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall frc::ErrorBase::StatusIsFatal(void)const " (?StatusIsFatal@ErrorBase@frc@@UBE_NXZ)
+     1>RomiEncoder.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall frc::PIDSource::SetPIDSourceType(enum frc::PIDSourceType)" (?SetPIDSourceType@PIDSource@frc@@UAEXW4PIDSourceType@2@@Z)
+     1>RomiEncoder.obj : error LNK2019: unresolved external symbol "public: __thiscall frc::I2C::I2C(enum frc::I2C::Port,int)" (??0I2C@frc@@QAE@W4Port@01@H@Z) referenced in function "public: __thiscall frc::RomiEncoder::RomiEncoder(enum frc::I2C::Port,int)" (??0RomiEncoder@frc@@QAE@W4Port@I2C@1@H@Z)
+     1>RomiMotor.obj : error LNK2001: unresolved external symbol "public: __thiscall frc::I2C::I2C(enum frc::I2C::Port,int)" (??0I2C@frc@@QAE@W4Port@01@H@Z)
+     1>RomiEncoder.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall frc::I2C::~I2C(void)" (??1I2C@frc@@UAE@XZ) referenced in function "public: virtual __thiscall frc::RomiEncoder::~RomiEncoder(void)" (??1RomiEncoder@frc@@UAE@XZ)
+     1>RomiMotor.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall frc::I2C::~I2C(void)" (??1I2C@frc@@UAE@XZ)
+     1>E:\JimsCode\WPI\RomiTest\Debug\RomiTest.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "E:\JimsCode\WPI\RomiTest\RomiTest\RomiTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.74

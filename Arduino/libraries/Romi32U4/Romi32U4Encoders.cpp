@@ -1,0 +1,199 @@
+// Copyright Pololu Corporation.  For more information, see http://www.pololu.com/
+
+#include <Romi32U4Encoders.h>
+#include <FastGPIO.h>
+#include <avr/interrupt.h>
+#include <Arduino.h>
+
+#define LEFT_XOR   8
+#define LEFT_B     IO_E2
+#define RIGHT_XOR  7
+#define RIGHT_B    23
+#define RATE_SHIFT  9
+#define RATE_DIV    1<<RATE_SHIFT
+#define RATE_PER   10
+
+static volatile bool lastLeftA;
+static volatile bool lastLeftB;
+static volatile bool lastRightA;
+static volatile bool lastRightB;
+
+static volatile bool errorLeft;
+static volatile bool errorRight;
+
+// These count variables are uint16_t instead of int16_t because
+// signed integer overflow is undefined behavior in C++.
+static volatile uint32_t countLeft;
+static volatile uint32_t countRight;
+static volatile uint32_t lastCountLeft;
+static volatile uint32_t lastCountRight;
+static volatile int16_t rateLeft;
+static volatile int16_t rateRight;
+static volatile uint8_t count;
+
+// This is called every millisecond so the time factor is removed
+SIGNAL(TIMER0_COMPA_vect)
+{
+    count++;
+    if (count >= RATE_PER)
+    {
+        uint32_t curCount = countLeft * RATE_DIV;
+        rateLeft = curCount - lastCountLeft;
+        lastCountLeft = curCount;
+
+        curCount = countRight * RATE_DIV;
+        rateRight = curCount - lastCountRight;
+        lastCountRight = curCount;
+        count = 0;
+    }
+}
+
+ISR(PCINT0_vect)
+{
+    bool newLeftB = FastGPIO::Pin<LEFT_B>::isInputHigh();
+    bool newLeftA = FastGPIO::Pin<LEFT_XOR>::isInputHigh() ^ newLeftB;
+
+    countLeft += (lastLeftA ^ newLeftB) - (newLeftA ^ lastLeftB);
+
+    if((lastLeftA ^ newLeftA) & (lastLeftB ^ newLeftB))
+    {
+        errorLeft = true;
+    }
+
+    lastLeftA = newLeftA;
+    lastLeftB = newLeftB;
+}
+
+static void rightISR()
+{
+    bool newRightB = FastGPIO::Pin<RIGHT_B>::isInputHigh();
+    bool newRightA = FastGPIO::Pin<RIGHT_XOR>::isInputHigh() ^ newRightB;
+
+    countRight += (lastRightA ^ newRightB) - (newRightA ^ lastRightB);
+
+    if((lastRightA ^ newRightA) & (lastRightB ^ newRightB))
+    {
+        errorLeft = true;
+    }
+
+    lastRightA = newRightA;
+    lastRightB = newRightB;
+}
+
+void Romi32U4Encoders::init2()
+{
+    // Set the pins as pulled-up inputs.
+    FastGPIO::Pin<LEFT_XOR>::setInputPulledUp();
+    FastGPIO::Pin<LEFT_B>::setInputPulledUp();
+    FastGPIO::Pin<RIGHT_XOR>::setInputPulledUp();
+    FastGPIO::Pin<RIGHT_B>::setInputPulledUp();
+
+    // Enable pin-change interrupt on PB4 for left encoder, and disable other
+    // pin-change interrupts.
+    PCICR = (1 << PCIE0);
+    PCMSK0 = (1 << PCINT4);
+    PCIFR = (1 << PCIF0);  // Clear its interrupt flag by writing a 1.
+
+    // Enable interrupt on PE6 for the right encoder.  We use attachInterrupt
+    // instead of defining ISR(INT6_vect) ourselves so that this class will be
+    // compatible with other code that uses attachInterrupt.
+    attachInterrupt(4, rightISR, CHANGE);
+
+    // Initialize the variables.  It's good to do this after enabling the
+    // interrupts in case the interrupts fired by accident as we were enabling
+    // them.
+    lastLeftB = FastGPIO::Pin<LEFT_B>::isInputHigh();
+    lastLeftA = FastGPIO::Pin<LEFT_XOR>::isInputHigh() ^ lastLeftB;
+    countLeft = 0;
+    errorLeft = 0;
+
+    lastRightB = FastGPIO::Pin<RIGHT_B>::isInputHigh();
+    lastRightA = FastGPIO::Pin<RIGHT_XOR>::isInputHigh() ^ lastRightB;
+    countRight = 0;
+    errorRight = 0;
+
+    // Timer0 is already used for millis() - we'll just interrupt somewhere
+    // in the middle and call the "Compare A" function below
+    OCR0A = 0xAF;
+    TIMSK0 |= _BV(OCIE0A);
+}
+
+int32_t Romi32U4Encoders::getCountsLeft()
+{
+    init();
+
+    cli();
+    int32_t counts = countLeft;
+    sei();
+    return counts;
+}
+
+int16_t Romi32U4Encoders::getRateLeft()
+{
+    init();
+
+    cli();
+    int16_t rate = rateLeft  / RATE_PER;
+    sei();
+    return rate;
+}
+
+int32_t Romi32U4Encoders::getCountsRight()
+{
+    init();
+
+    cli();
+    int32_t counts = countRight;
+    sei();
+    return counts;
+}
+
+int16_t Romi32U4Encoders::getRateRight()
+{
+    init();
+
+    cli();
+    int16_t rate = rateRight / RATE_PER;
+    sei();
+    return rate;
+}
+
+int16_t Romi32U4Encoders::getCountsAndResetLeft()
+{
+    init();
+
+    cli();
+    int16_t counts = countLeft;
+    countLeft = 0;
+    sei();
+    return counts;
+}
+
+int16_t Romi32U4Encoders::getCountsAndResetRight()
+{
+    init();
+
+    cli();
+    int16_t counts = countRight;
+    countRight = 0;
+    sei();
+    return counts;
+}
+
+bool Romi32U4Encoders::checkErrorLeft()
+{
+    init();
+
+    bool error = errorLeft;
+    errorLeft = 0;
+    return error;
+}
+
+bool Romi32U4Encoders::checkErrorRight()
+{
+    init();
+
+    bool error = errorRight;
+    errorRight = 0;
+    return error;
+}

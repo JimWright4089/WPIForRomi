@@ -1,0 +1,58 @@
+#include "FRC_FPGA_ChipObject/nRoboRIO_FPGANamespace/tRelay.h"
+
+using namespace nFPGA::nFRC_2017_17_0_2;
+
+class theRelay : tRelay
+{
+public:
+   theRelay(){}
+
+   tSystemInterface* getSystemInterface()
+   {
+      return NULL;
+   }
+
+   static theRelay* create(tRioStatusCode *status)
+   {
+	if(NULL == instance)
+        {
+  	  instance = new theRelay();
+        }
+        return instance;
+   }
+
+   void writeValue(tValue value, tRioStatusCode *status)
+   {
+   }
+   void writeValue_Forward(unsigned char value, tRioStatusCode *status)
+   {
+   }
+   void writeValue_Reverse(unsigned char value, tRioStatusCode *status)
+   {
+   }
+   tValue readValue(tRioStatusCode *status)
+   {
+	tRelay::tValue theValue;
+	return theValue;
+   }
+   unsigned char readValue_Forward(tRioStatusCode *status)
+   {
+	return 0;
+   }
+   unsigned char readValue_Reverse(tRioStatusCode *status)
+   {
+	return 0;
+   }
+
+private:
+   static theRelay* instance;
+
+   theRelay(const theRelay&)
+   {
+   }
+   void operator=(const theRelay&);
+};
+
+theRelay* theRelay::instance = NULL;
+
+

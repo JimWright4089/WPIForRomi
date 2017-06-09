@@ -1,0 +1,7 @@
+E:\JimsCode\CS\DS\PiMessage\bin\Debug\PiMessage.dll
+E:\JimsCode\CS\DS\PiMessage\bin\Debug\PiMessage.pdb
+E:\JimsCode\CS\DS\PiMessage\obj\Debug\PiMessage.dll
+E:\JimsCode\CS\DS\PiMessage\obj\Debug\PiMessage.pdb
+E:\JimsCode\CS\DS\bin\PiMessage.dll
+E:\JimsCode\CS\DS\bin\PiMessage.pdb
+E:\JimsCode\CS\DS\PiMessage\obj\Debug\PiMessage.csprojResolveAssemblyReference.cache

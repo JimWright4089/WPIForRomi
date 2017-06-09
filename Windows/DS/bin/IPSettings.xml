@@ -1,0 +1,5 @@
+<Settings>
+  <IPAddress>192.168.222.147</IPAddress>
+  <RCPort>11111</RCPort>
+  <DSPort>11110</DSPort>
+</Settings>

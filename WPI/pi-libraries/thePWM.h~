@@ -1,0 +1,17 @@
+#include "FRC_FPGA_ChipObject/nRoboRIO_FPGANamespace/tRelay.h"
+
+using namespace nFPGA;
+using namespace nFPGA::nFRC_2017_17_0_2;
+
+class theRelay : tRelay
+{
+public:
+   tSystemInterface* getSystemInterface();
+   void writeValue(tValue value, tRioStatusCode *status);
+   void writeValue_Forward(unsigned char value, tRioStatusCode *status);
+   void writeValue_Reverse(unsigned char value, tRioStatusCode *status);
+   tValue readValue(tRioStatusCode *status);
+   unsigned char readValue_Forward(tRioStatusCode *status);
+   unsigned char readValue_Reverse(tRioStatusCode *status);
+};
+

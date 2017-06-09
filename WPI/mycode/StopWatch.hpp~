@@ -1,0 +1,16 @@
+
+#pragma once
+
+class StopWatch
+{
+	long mLastTime;
+	long mWaitTime;
+
+	public:
+	StopWatch();
+	StopWatch(int waitTime);
+	void SetTime(int waitTime);
+	bool IsExpired(void);
+	void Reset(void);
+};
+

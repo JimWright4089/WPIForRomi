@@ -1,0 +1,14 @@
+E:\JimsCode\CS\DS\RC\bin\Debug\RC.exe.config
+E:\JimsCode\CS\DS\RC\bin\Debug\RC.exe
+E:\JimsCode\CS\DS\RC\bin\Debug\RC.pdb
+E:\JimsCode\CS\DS\RC\bin\Debug\PiMessage.dll
+E:\JimsCode\CS\DS\RC\bin\Debug\PiMessage.pdb
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.Properties.Resources.resources
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.RC.resources
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.csproj.GenerateResource.Cache
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.exe
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.pdb
+E:\JimsCode\CS\DS\RC\obj\Debug\RC.csprojResolveAssemblyReference.cache
+E:\JimsCode\CS\DS\bin\RC.exe.config
+E:\JimsCode\CS\DS\bin\RC.exe
+E:\JimsCode\CS\DS\bin\RC.pdb

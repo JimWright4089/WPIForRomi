@@ -1,0 +1,6 @@
+E:\JimsCode\CS\DS\PiMessage\bin\Release\PiMessage.dll
+E:\JimsCode\CS\DS\PiMessage\bin\Release\PiMessage.pdb
+E:\JimsCode\CS\DS\PiMessage\obj\Release\PiMessage.dll
+E:\JimsCode\CS\DS\PiMessage\obj\Release\PiMessage.pdb
+E:\JimsCode\CS\DS\bin\PiMessage.dll
+E:\JimsCode\CS\DS\bin\PiMessage.pdb
