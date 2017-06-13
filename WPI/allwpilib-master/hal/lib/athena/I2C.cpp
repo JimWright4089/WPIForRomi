@@ -35,9 +35,9 @@ extern "C" {
 void HAL_InitializeI2C(int32_t port, int32_t* status) 
 {
   printf("AA\n");
-  initializeDigital(status);
+  //initializeDigital(status);
   printf("BB\n");
-  if (*status != 0) return;
+  //if (*status != 0) return;
   printf("CC\n");
 
   if (port > 1) {

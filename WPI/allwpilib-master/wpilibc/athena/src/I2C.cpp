@@ -23,15 +23,11 @@ using namespace frc;
 I2C::I2C(Port port, int deviceAddress)
     : m_port(port), m_deviceAddress(deviceAddress) 
 {
-  printf("A\n");
   int32_t status = 0;
-  printf("B\n");
   HAL_InitializeI2C(m_port, &status);
   // wpi_setErrorWithContext(status, HAL_GetErrorMessage(status));
-  printf("C\n");
 
   HAL_Report(HALUsageReporting::kResourceType_I2C, deviceAddress);
-  printf("D\n");
 }
 
 /**

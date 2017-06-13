@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <memory.h>
-#include "Messages.h"
+#include "Messages.hpp"
 #include "Utils.h"
 
 UInt16 Message::mNextSequence = 0;
@@ -28,7 +28,7 @@ int Message::GetMessageID()
     return (int) mData[COMMAND_BYTE_LOC];
 }
 
-void Message::GetSendData(byte* returnBytes, byte returnBytesLength)
+void Message::GetSendData(byte* returnBytes, int returnBytesLength)
 {
     memcpy(returnBytes, mSendData, returnBytesLength);
 }
@@ -56,7 +56,7 @@ void Message::GetData(byte* returnBytes, int* returnBytesLength)
     buildCheckByte();
     mSendDataLength = mLength;
 
-    for (byte index = COMMAND_BYTE_LOC; index < mLength + END_BYTE_LOC; index++)
+    for (int index = COMMAND_BYTE_LOC; index < mLength + END_BYTE_LOC; index++)
     {
         switch (mData[index])
         {
@@ -73,7 +73,7 @@ void Message::GetData(byte* returnBytes, int* returnBytesLength)
     mSendData[location] = mData[START_BYTE_LOC];
     location++;
 
-    for (byte index = COMMAND_BYTE_LOC; index < mLength + END_BYTE_LOC; index++)
+    for (int index = COMMAND_BYTE_LOC; index < mLength + END_BYTE_LOC; index++)
     {
         switch (mData[index])
         {
@@ -125,7 +125,7 @@ byte Message::calcCheckByte()
 {
     byte checkByte = 0xFF;
 
-    for (byte index = COMMAND_BYTE_LOC; index < mLength + CRC_BYTE_LOC; index++)
+    for (int index = COMMAND_BYTE_LOC; index < mLength + CRC_BYTE_LOC; index++)
     {
         checkByte ^= mData[index];
     }
@@ -149,7 +149,7 @@ mTime(0)
     mData[mLength + END_BYTE_LOC] = END_CHAR;
 }
 
-DS_Status_Message::DS_Status_Message(byte* data, byte dataLen):
+DS_Status_Message::DS_Status_Message(byte* data, int dataLen):
 mTime(0)
 {
     mLength = 16;
@@ -157,7 +157,7 @@ mTime(0)
 
     if (mLength == dataLen)
     {
-        for (byte i = 0; i < mLength; i++)
+        for (int i = 0; i < mLength; i++)
         {
             mData[i] = data[i];
         }
@@ -208,7 +208,7 @@ mTime(0)
     mData[mLength + END_BYTE_LOC] = END_CHAR;
 }
 
-RC_Status_Message::RC_Status_Message(byte* data, byte dataLength):
+RC_Status_Message::RC_Status_Message(byte* data, int dataLength):
 mTime(0)
 {
     mLength = 16;
@@ -216,7 +216,7 @@ mTime(0)
 
     if (mLength == dataLength)
     {
-        for (byte i = 0; i < mLength; i++)
+        for (int i = 0; i < mLength; i++)
         {
             mData[i] = data[i];
         }
@@ -256,14 +256,14 @@ Controller_Message::Controller_Message()
     mData[mLength + END_BYTE_LOC] = END_CHAR;
 }
 
-Controller_Message::Controller_Message(byte* data, byte dataLength)
+Controller_Message::Controller_Message(byte* data, int dataLength)
 {
     mLength = 31;
     mID = CONNTROLLER;
 
     if (mLength == dataLength)
     {
-        for (byte i = 0; i < mLength; i++)
+        for (int i = 0; i < mLength; i++)
         {
             mData[i] = data[i];
         }
@@ -318,7 +318,7 @@ Message* MessageFactory::Build(byte* data, int dataLength)
 {
     int realLength = dataLength;
 
-    for (byte index = Message::COMMAND_BYTE_LOC+1; index < dataLength + Message::END_BYTE_LOC; index++)
+    for (int index = Message::COMMAND_BYTE_LOC+1; index < dataLength + Message::END_BYTE_LOC; index++)
     {
         switch (data[index])
         {
@@ -334,7 +334,7 @@ Message* MessageFactory::Build(byte* data, int dataLength)
     realData[location] = data[0];
     location++;
 
-    for (byte index = Message::COMMAND_BYTE_LOC; index < dataLength + Message::END_BYTE_LOC; index++)
+    for (int index = Message::COMMAND_BYTE_LOC; index < dataLength + Message::END_BYTE_LOC; index++)
     {
         switch (data[index])
         {
@@ -369,7 +369,7 @@ Message* MessageFactory::Build(byte* data, int dataLength)
 
     byte checkByte = 0xFF;
 
-    for (byte index = Message::COMMAND_BYTE_LOC; index < realLength + Message::CRC_BYTE_LOC; index++)
+    for (int index = Message::COMMAND_BYTE_LOC; index < realLength + Message::CRC_BYTE_LOC; index++)
     {
         checkByte ^= realData[index];
     }

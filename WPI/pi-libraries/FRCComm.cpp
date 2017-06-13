@@ -14,8 +14,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
- 
-#include "Messages.h"
+
+#include "Messages.hpp"
 
 #define BUFSIZE 1024
 
