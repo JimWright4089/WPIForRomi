@@ -12,3 +12,12 @@ E:\JimsCode\CS\DS\RC\obj\Debug\RC.csprojResolveAssemblyReference.cache
 E:\JimsCode\CS\DS\bin\RC.exe.config
 E:\JimsCode\CS\DS\bin\RC.exe
 E:\JimsCode\CS\DS\bin\RC.pdb
+C:\JimsCode\WPIForRomi\Windows\DS\bin\RC.exe.config
+C:\JimsCode\WPIForRomi\Windows\DS\bin\RC.exe
+C:\JimsCode\WPIForRomi\Windows\DS\bin\RC.pdb
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.Properties.Resources.resources
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.RC.resources
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.csproj.GenerateResource.Cache
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.exe
+C:\JimsCode\WPIForRomi\Windows\DS\RC\obj\Debug\RC.pdb

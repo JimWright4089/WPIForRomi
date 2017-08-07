@@ -47,7 +47,7 @@
             this.cbButton3 = new System.Windows.Forms.CheckBox();
             this.cbButton0 = new System.Windows.Forms.CheckBox();
             this.cbButton2 = new System.Windows.Forms.CheckBox();
-            this.lButtonStatus = new System.Windows.Forms.Label();
+            this.lControl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bA
@@ -215,21 +215,21 @@
             this.cbButton2.Text = "Button 2";
             this.cbButton2.UseVisualStyleBackColor = true;
             // 
-            // lButtonStatus
+            // lControl
             // 
-            this.lButtonStatus.AutoSize = true;
-            this.lButtonStatus.Location = new System.Drawing.Point(12, 108);
-            this.lButtonStatus.Name = "lButtonStatus";
-            this.lButtonStatus.Size = new System.Drawing.Size(35, 13);
-            this.lButtonStatus.TabIndex = 19;
-            this.lButtonStatus.Text = "label1";
+            this.lControl.AutoSize = true;
+            this.lControl.Location = new System.Drawing.Point(103, 232);
+            this.lControl.Name = "lControl";
+            this.lControl.Size = new System.Drawing.Size(35, 13);
+            this.lControl.TabIndex = 19;
+            this.lControl.Text = "label1";
             // 
             // DS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 424);
-            this.Controls.Add(this.lButtonStatus);
+            this.Controls.Add(this.lControl);
             this.Controls.Add(this.cbButton2);
             this.Controls.Add(this.cbButton0);
             this.Controls.Add(this.cbButton3);
@@ -275,7 +275,7 @@
         private System.Windows.Forms.CheckBox cbButton3;
         private System.Windows.Forms.CheckBox cbButton0;
         private System.Windows.Forms.CheckBox cbButton2;
-        private System.Windows.Forms.Label lButtonStatus;
+        private System.Windows.Forms.Label lControl;
     }
 }
 

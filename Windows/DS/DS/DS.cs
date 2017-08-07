@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Net.Sockets;
 using System.Net;
+using SharpDX.XInput;
 
 using PiMessage;
 
@@ -29,6 +30,12 @@ namespace DS
         RC_Status_Message mRCMessage = new RC_Status_Message();
         Controller_Message mController = new Controller_Message();
         string mMessage = "";
+        Controller mGamepad = new SharpDX.XInput.Controller(SharpDX.XInput.UserIndex.One);
+        Int16 mLeftX = 0;
+        Int16 mLeftY = 0;
+        UInt16 mButtons = 0;
+        const int MAX_BUTTONS = 10;
+        Int16[] mOldButton = new Int16[MAX_BUTTONS] { 4096, 8192, 16384, -32768, 256, 512, 32, 16, 64, 128 };
 
         public DS()
         {
@@ -40,6 +47,20 @@ namespace DS
             mThread.Start();
             tDisplay.Enabled = true;
         }
+
+        UInt16 TranslateButtons(Int16 button)
+        {
+            UInt16 returnValue = 0;
+            for (int i = 0; i < MAX_BUTTONS; i++)
+            {
+                if (mOldButton[i] == (button & mOldButton[i]))
+                {
+                    returnValue |= (UInt16)(1 << i);
+                }
+            }
+            return returnValue;
+        }
+
 
         private void RunThread()
         {
@@ -59,12 +80,12 @@ namespace DS
                 mCurStatusMessage.RollSequenceNumber();
 
                 mController.SetNumber(1);
-                mController.SetButton(0, cbButton0.Checked);
-                mController.SetButton(1, cbButton1.Checked);
-                mController.SetButton(2, cbButton2.Checked);
-                mController.SetButton(3, cbButton3.Checked);
-                mController.SetAnalog(0, (short)theDouble);
-                mController.SetAnalog(1, (short)-theDouble);
+                for (int i = 0; i < MAX_BUTTONS; i++)
+                {
+                    mController.SetButton(i, ((1<<i)==(mButtons&(1<<i)))?true:false);
+                }
+                mController.SetAnalog(0, mLeftX);
+                mController.SetAnalog(1, mLeftY);
 
                 theDouble += 1;
 
@@ -221,9 +242,16 @@ namespace DS
 
             theData = mController.GetData();
             UInt32 buttondata = Controller_Message.GetU32FrombyteArray(theData, Controller_Message.BUTTONS_BYTE_LOC);
-            lButtonStatus.Text = buttondata.ToString();
+            lControl.Text = buttondata.ToString();
 
             lMessage.Text = mMessage;
+
+            State theState = mGamepad.GetState();
+            mLeftX = (Int16)(theState.Gamepad.LeftThumbX);
+            mLeftY = (Int16)(theState.Gamepad.LeftThumbY);
+            mButtons = TranslateButtons((Int16)theState.Gamepad.Buttons);
+
+            lControl.Text = mButtons.ToString() + " " + mLeftX.ToString() + " " + mLeftY.ToString(); ;
         }
 
         private void bTestStuff_Click(object sender, EventArgs e)

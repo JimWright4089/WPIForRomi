@@ -12,3 +12,12 @@ E:\JimsCode\CS\DS\DS\bin\Debug\PiMessage.pdb
 E:\JimsCode\CS\DS\bin\DS.exe.config
 E:\JimsCode\CS\DS\bin\DS.exe
 E:\JimsCode\CS\DS\bin\DS.pdb
+C:\JimsCode\WPIForRomi\Windows\DS\bin\DS.exe.config
+C:\JimsCode\WPIForRomi\Windows\DS\bin\DS.exe
+C:\JimsCode\WPIForRomi\Windows\DS\bin\DS.pdb
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.DS.resources
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.Properties.Resources.resources
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.csproj.GenerateResource.Cache
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.exe
+C:\JimsCode\WPIForRomi\Windows\DS\DS\obj\Debug\DS.pdb

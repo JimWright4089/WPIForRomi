@@ -5,3 +5,8 @@ E:\JimsCode\CS\DS\PiMessage\obj\Debug\PiMessage.pdb
 E:\JimsCode\CS\DS\bin\PiMessage.dll
 E:\JimsCode\CS\DS\bin\PiMessage.pdb
 E:\JimsCode\CS\DS\PiMessage\obj\Debug\PiMessage.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\DS\bin\PiMessage.dll
+C:\JimsCode\WPIForRomi\Windows\DS\bin\PiMessage.pdb
+C:\JimsCode\WPIForRomi\Windows\DS\PiMessage\obj\Debug\PiMessage.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\DS\PiMessage\obj\Debug\PiMessage.dll
+C:\JimsCode\WPIForRomi\Windows\DS\PiMessage\obj\Debug\PiMessage.pdb
