@@ -84,8 +84,8 @@ namespace DS
                 {
                     mController.SetButton(i, ((1<<i)==(mButtons&(1<<i)))?true:false);
                 }
-                mController.SetAnalog(0, mLeftX);
-                mController.SetAnalog(1, mLeftY);
+                mController.SetAnalog(0, (short)(mLeftX/256));
+                mController.SetAnalog(1, (short)(mLeftY/256));
 
                 theDouble += 1;
 
