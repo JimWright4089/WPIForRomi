@@ -33,6 +33,8 @@ namespace DS
         Controller mGamepad = new SharpDX.XInput.Controller(SharpDX.XInput.UserIndex.One);
         Int16 mLeftX = 0;
         Int16 mLeftY = 0;
+        Int16 mRightX = 0;
+        Int16 mRightY = 0;
         UInt16 mButtons = 0;
         const int MAX_BUTTONS = 10;
         Int16[] mOldButton = new Int16[MAX_BUTTONS] { 4096, 8192, 16384, -32768, 256, 512, 32, 16, 64, 128 };
@@ -84,8 +86,10 @@ namespace DS
                 {
                     mController.SetButton(i, ((1<<i)==(mButtons&(1<<i)))?true:false);
                 }
-                mController.SetAnalog(0, (short)(mLeftX/256));
-                mController.SetAnalog(1, (short)(mLeftY/256));
+                mController.SetAnalog(0, (short)(mLeftX / 256));
+                mController.SetAnalog(1, (short)(mLeftY / 256));
+                mController.SetAnalog(2, (short)(mRightX / 256));
+                mController.SetAnalog(3, (short)(mRightY / 256));
 
                 theDouble += 1;
 
@@ -131,7 +135,7 @@ namespace DS
                 }
                 
                 mCount++;
-                Thread.Sleep(1);
+                Thread.Sleep(50);
             }
             sending_socket.Close();
         }
@@ -249,6 +253,8 @@ namespace DS
             State theState = mGamepad.GetState();
             mLeftX = (Int16)(theState.Gamepad.LeftThumbX);
             mLeftY = (Int16)(theState.Gamepad.LeftThumbY);
+            mRightX = (Int16)(theState.Gamepad.RightThumbX);
+            mRightY = (Int16)(theState.Gamepad.RightThumbY);
             mButtons = TranslateButtons((Int16)theState.Gamepad.Buttons);
 
             lControl.Text = mButtons.ToString() + " " + mLeftX.ToString() + " " + mLeftY.ToString(); ;

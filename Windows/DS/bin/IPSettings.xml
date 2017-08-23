@@ -1,5 +1,5 @@
 <Settings>
-  <IPAddress>192.168.143.125</IPAddress>
+  <IPAddress>192.168.1.107</IPAddress>
   <RCPort>11111</RCPort>
   <DSPort>11110</DSPort>
 </Settings>

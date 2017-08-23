@@ -18,8 +18,6 @@ const int WAIT_TIME = 125;
 
 int i2clib_open(const char *device)
 {
-    printf("i2clib_open\n");
-
     //----- OPEN THE I2C BUS -----
     char *filename = (char*)"/dev/i2c-1";
     if ((gFileI2C = open(filename, O_RDWR)) < 0)
@@ -34,14 +32,11 @@ int i2clib_open(const char *device)
 
 void i2clib_close(int handle)
 {
-    printf("i2clib_close\n");
     close(gFileI2C);
 }
 
 int i2clib_read(int handle, uint8_t dev_addr, char *recv_buf, int32_t recv_size)
 {
-    printf("i2clib_read\n");
-    
     if (ioctl(gFileI2C, I2C_SLAVE, dev_addr) < 0)
     {
         printf("Failed to acquire bus access and/or talk to device.\n");
@@ -60,8 +55,6 @@ int i2clib_read(int handle, uint8_t dev_addr, char *recv_buf, int32_t recv_size)
 
 int i2clib_write(int handle, uint8_t dev_addr, const char *send_buf, int32_t send_size)
 {
-    printf("i2clib_write\n");
-    
     if (ioctl(gFileI2C, I2C_SLAVE, dev_addr) < 0)
     {
         printf("Failed to acquire bus access and/or talk to device.\n");
@@ -84,8 +77,6 @@ int i2clib_writeread(int handle, uint8_t dev_addr,
     const char *send_buf, int32_t send_size,
     char *recv_buf, int32_t recv_size)
 {
-    printf("i2clib_writeread\n");
-    
     if (ioctl(gFileI2C, I2C_SLAVE, dev_addr) < 0)
     {
         printf("Failed to acquire bus access and/or talk to device.\n");

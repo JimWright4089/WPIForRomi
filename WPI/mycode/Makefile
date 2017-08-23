@@ -227,6 +227,8 @@ CPPTEST_SRC	=	./CPPTest/src/OI.cpp \
 			./CPPTest/src/RobotMap.cpp \
 			./CPPTest/src/StopWatch.cpp \
 			./CPPTest/src/RomiBuzzer.cpp \
+			./CPPTest/src/RomiMotor.cpp \
+			./CPPTest/src/RomiEncoder.cpp \
 			./CPPTest/src/Commands/AutonomousCommand.cpp \
 			./CPPTest/src/Commands/SimpleCommand.cpp \
 			./CPPTest/src/Subsystems/SimpleSubsystem.cpp
