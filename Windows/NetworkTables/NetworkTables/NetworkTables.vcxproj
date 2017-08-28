@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CED274DF-B8BE-47E3-B1CC-4D07993E11FC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NetworkTables</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\JimsCode\NetworkTables\NTCore\include;E:\JimsCode\NetworkTables\NTCore\wpiutil\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_SCL_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NETWORKTABLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;NETWORKTABLES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NTCore\src\Dispatcher.cpp" />
+    <ClCompile Include="..\NTCore\src\DsClient.cpp" />
+    <ClCompile Include="..\NTCore\src\Log.cpp" />
+    <ClCompile Include="..\NTCore\src\Message.cpp" />
+    <ClCompile Include="..\NTCore\src\NetworkConnection.cpp" />
+    <ClCompile Include="..\NTCore\src\networktables\NetworkTable.cpp" />
+    <ClCompile Include="..\NTCore\src\Notifier.cpp" />
+    <ClCompile Include="..\NTCore\src\ntcore_c.cpp" />
+    <ClCompile Include="..\NTCore\src\ntcore_cpp.cpp" />
+    <ClCompile Include="..\NTCore\src\ntcore_test.cpp" />
+    <ClCompile Include="..\NTCore\src\RpcServer.cpp" />
+    <ClCompile Include="..\NTCore\src\SequenceNumber.cpp" />
+    <ClCompile Include="..\NTCore\src\Storage.cpp" />
+    <ClCompile Include="..\NTCore\src\tables\ITableListener.cpp" />
+    <ClCompile Include="..\NTCore\src\tables\TableKeyNotDefinedException.cpp" />
+    <ClCompile Include="..\NTCore\src\Value.cpp" />
+    <ClCompile Include="..\NTCore\src\WireDecoder.cpp" />
+    <ClCompile Include="..\NTCore\src\WireEncoder.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ConvertUTF.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ConvertUTFWrapper.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ErrorHandling.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\Hashing.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\raw_ostream.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\raw_os_ostream.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\SmallPtrSet.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\SmallVector.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringExtras.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringMap.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringRef.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\Base64.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\leb128.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_istream.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_socket_istream.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_socket_ostream.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\support\timestamp.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\SocketError.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPConnector.cpp" />
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPStream.cpp" />
+    <ClCompile Include="NetworkTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NTCore\src\Dispatcher.h" />
+    <ClInclude Include="..\NTCore\src\DsClient.h" />
+    <ClInclude Include="..\NTCore\src\Log.h" />
+    <ClInclude Include="..\NTCore\src\Message.h" />
+    <ClInclude Include="..\NTCore\src\NetworkConnection.h" />
+    <ClInclude Include="..\NTCore\src\Notifier.h" />
+    <ClInclude Include="..\NTCore\src\RpcServer.h" />
+    <ClInclude Include="..\NTCore\src\SequenceNumber.h" />
+    <ClInclude Include="..\NTCore\src\Storage.h" />
+    <ClInclude Include="..\NTCore\src\Value_internal.h" />
+    <ClInclude Include="..\NTCore\src\WireDecoder.h" />
+    <ClInclude Include="..\NTCore\src\WireEncoder.h" />
+    <ClInclude Include="NetworkTable.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

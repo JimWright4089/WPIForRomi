@@ -1,0 +1,14 @@
+<Channels>
+  <Channel>
+    <Key>/datatable/y</Key>
+    <Color>Red</Color>
+    <Mult>50</Mult>
+    <Offset>0</Offset>
+  </Channel>
+  <Channel>
+    <Key>/datatable/x</Key>
+    <Color>Blue</Color>
+    <Mult>50</Mult>
+    <Offset>0</Offset>
+  </Channel>
+</Channels>

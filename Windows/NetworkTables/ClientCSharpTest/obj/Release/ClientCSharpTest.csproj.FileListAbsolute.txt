@@ -1,0 +1,10 @@
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\bin\Release\ClientCSharpTest.exe.config
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\bin\Release\ClientCSharpTest.exe
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\bin\Release\ClientCSharpTest.pdb
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\bin\Release\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\bin\Release\NetworkTablesInterface.pdb
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Release\ClientCSharpTest.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Release\ClientCSharpTest.Properties.Resources.resources
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Release\ClientCSharpTest.csproj.GenerateResource.Cache
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Release\ClientCSharpTest.exe
+C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Release\ClientCSharpTest.pdb

@@ -1,0 +1,11 @@
+E:\JimsCode\NetworkTables\NetworkTablesInterface\bin\Debug\NetworkTablesInterface.dll
+E:\JimsCode\NetworkTables\NetworkTablesInterface\bin\Debug\NetworkTablesInterface.pdb
+E:\JimsCode\NetworkTables\Debug\NetworkTablesInterface.dll
+E:\JimsCode\NetworkTables\Debug\NetworkTablesInterface.pdb
+E:\JimsCode\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.dll
+E:\JimsCode\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.pdb
+C:\JimsCode\CS\NetworkTables\Debug\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\Debug\NetworkTablesInterface.pdb
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.pdb

@@ -1,0 +1,4 @@
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\bin\Release\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\bin\Release\NetworkTablesInterface.pdb
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\obj\Release\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\NetworkTablesInterface\obj\Release\NetworkTablesInterface.pdb

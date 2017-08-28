@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NetworkTable.cpp" />
+    <ClCompile Include="..\NTCore\src\Message.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\NetworkConnection.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\Notifier.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\ntcore_c.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\ntcore_cpp.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\ntcore_test.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\RpcServer.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\SequenceNumber.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\Storage.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\Value.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\WireDecoder.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\WireEncoder.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\Dispatcher.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\DsClient.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\Log.cpp">
+      <Filter>NTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\networktables\NetworkTable.cpp">
+      <Filter>NTCore\networktables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\tables\TableKeyNotDefinedException.cpp">
+      <Filter>NTCore\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\src\tables\ITableListener.cpp">
+      <Filter>NTCore\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringRef.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ConvertUTF.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ConvertUTFWrapper.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\ErrorHandling.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\Hashing.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\raw_os_ostream.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\raw_ostream.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\SmallPtrSet.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\SmallVector.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringExtras.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\llvm\StringMap.cpp">
+      <Filter>wpiutil\ilvm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\timestamp.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\Base64.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\leb128.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_istream.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_socket_istream.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\support\raw_socket_ostream.cpp">
+      <Filter>wpiutil\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPStream.cpp">
+      <Filter>wpiutil\tcpsockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\SocketError.cpp">
+      <Filter>wpiutil\tcpsockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp">
+      <Filter>wpiutil\tcpsockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NTCore\wpiutil\src\tcpsockets\TCPConnector.cpp">
+      <Filter>wpiutil\tcpsockets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetworkTable.h" />
+    <ClInclude Include="..\NTCore\src\Message.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\NetworkConnection.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\Notifier.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\RpcServer.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\SequenceNumber.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\Storage.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\Value_internal.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\WireDecoder.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\WireEncoder.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\Dispatcher.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\DsClient.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NTCore\src\Log.h">
+      <Filter>NTCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NTCore">
+      <UniqueIdentifier>{17053695-a8b0-4d58-a041-51c65592ad8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTCore\networktables">
+      <UniqueIdentifier>{8f14b5c1-775e-4cca-929d-3c1e0aa642e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTCore\tables">
+      <UniqueIdentifier>{8f9d561c-336e-4924-a4af-4c9eba483533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wpiutil">
+      <UniqueIdentifier>{bf9884a2-73be-468c-b96d-72ee13790bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wpiutil\ilvm">
+      <UniqueIdentifier>{4e65da47-0a52-4476-8cab-f036d50e4310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wpiutil\support">
+      <UniqueIdentifier>{ec462e98-2fe5-4188-a4c2-e99385e35c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wpiutil\tcpsockets">
+      <UniqueIdentifier>{ceabb876-e431-483a-98b3-e4ce02120008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

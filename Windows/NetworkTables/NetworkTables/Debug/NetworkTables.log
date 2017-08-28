@@ -1,0 +1,61 @@
+﻿Build started 3/2/2017 3:53:58 PM.
+     1>Project "E:\JimsCode\NetworkTables\NetworkTables\NetworkTables.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of NetworkTable.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\NTCore\src\networktables\NetworkTable.cpp, NetworkTable.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Ox /Oi /Oy- /GL /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _SCL_SECURE_NO_WARNINGS /D NOMINMAX /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NETWORKTABLE_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkTable.cpp
+         NetworkTable.cpp
+     1>E:\JimsCode\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>E:\JimsCode\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>E:\JimsCode\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JimsCode\NetworkTables\Debug\NetworkTables.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\JimsCode\NetworkTables\Debug\NetworkTables.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JimsCode\NetworkTables\Debug\NetworkTables.lib" /MACHINE:X86 /DLL Debug\Dispatcher.obj
+         Debug\DsClient.obj
+         Debug\Log.obj
+         Debug\Message.obj
+         Debug\NetworkConnection.obj
+         Debug\NetworkTable.obj
+         Debug\Notifier.obj
+         Debug\ntcore_c.obj
+         Debug\ntcore_cpp.obj
+         Debug\ntcore_test.obj
+         Debug\RpcServer.obj
+         Debug\SequenceNumber.obj
+         Debug\Storage.obj
+         Debug\ITableListener.obj
+         Debug\TableKeyNotDefinedException.obj
+         Debug\Value.obj
+         Debug\WireDecoder.obj
+         Debug\WireEncoder.obj
+         Debug\ConvertUTF.obj
+         Debug\ConvertUTFWrapper.obj
+         Debug\ErrorHandling.obj
+         Debug\Hashing.obj
+         Debug\raw_ostream.obj
+         Debug\raw_os_ostream.obj
+         Debug\SmallPtrSet.obj
+         Debug\SmallVector.obj
+         Debug\StringExtras.obj
+         Debug\StringMap.obj
+         Debug\StringRef.obj
+         Debug\Base64.obj
+         Debug\leb128.obj
+         Debug\raw_istream.obj
+         Debug\raw_socket_istream.obj
+         Debug\raw_socket_ostream.obj
+         Debug\timestamp.obj
+         Debug\SocketError.obj
+         Debug\TCPAcceptor.obj
+         Debug\TCPConnector.obj
+         Debug\TCPStream.obj
+         Debug\NetworkTable.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>Debug\NetworkTable.obj : warning LNK4042: object specified more than once; extras ignored
+            Creating library E:\JimsCode\NetworkTables\Debug\NetworkTables.lib and object E:\JimsCode\NetworkTables\Debug\NetworkTables.exp
+         Generating code
+         Finished generating code
+         NetworkTables.vcxproj -> E:\JimsCode\NetworkTables\Debug\NetworkTables.dll
+     1>Done Building Project "E:\JimsCode\NetworkTables\NetworkTables\NetworkTables.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.46

@@ -1,0 +1,5 @@
+C:\JimsCode\CS\NetworkTables\NetTables\bin\Release\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetTables\bin\Release\NetTables.pdb
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Release\NetTables.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Release\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Release\NetTables.pdb

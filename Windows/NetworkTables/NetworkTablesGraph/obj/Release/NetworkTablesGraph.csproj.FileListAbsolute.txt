@@ -1,0 +1,13 @@
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.exe.config
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.exe
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.pdb
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesInterface.dll
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetTables.pdb
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesInterface.pdb
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.NetworkTablesGraph.resources
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.Properties.Resources.resources
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.csproj.GenerateResource.Cache
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.exe
+C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.pdb

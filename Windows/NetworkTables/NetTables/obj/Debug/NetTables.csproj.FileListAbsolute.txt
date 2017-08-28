@@ -1,0 +1,10 @@
+E:\JimsCode\NetworkTables\NetTables\obj\Debug\NetTables.csprojResolveAssemblyReference.cache
+E:\JimsCode\NetworkTables\NetTables\bin\Debug\NetTables.dll
+E:\JimsCode\NetworkTables\NetTables\bin\Debug\NetTables.pdb
+E:\JimsCode\NetworkTables\NetTables\obj\Debug\NetTables.dll
+E:\JimsCode\NetworkTables\NetTables\obj\Debug\NetTables.pdb
+C:\JimsCode\CS\NetworkTables\NetTables\bin\Debug\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetTables\bin\Debug\NetTables.pdb
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Debug\NetTables.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Debug\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetTables\obj\Debug\NetTables.pdb

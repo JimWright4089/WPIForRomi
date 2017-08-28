@@ -1,0 +1,8 @@
+C:\JimsCode\CS\NetworkTables\NetTablesTest\bin\Release\NetTablesTest.dll
+C:\JimsCode\CS\NetworkTables\NetTablesTest\bin\Release\NetTablesTest.pdb
+C:\JimsCode\CS\NetworkTables\NetTablesTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\JimsCode\CS\NetworkTables\NetTablesTest\bin\Release\NetTables.dll
+C:\JimsCode\CS\NetworkTables\NetTablesTest\bin\Release\NetTables.pdb
+C:\JimsCode\CS\NetworkTables\NetTablesTest\obj\Release\NetTablesTest.csprojResolveAssemblyReference.cache
+C:\JimsCode\CS\NetworkTables\NetTablesTest\obj\Release\NetTablesTest.dll
+C:\JimsCode\CS\NetworkTables\NetTablesTest\obj\Release\NetTablesTest.pdb
