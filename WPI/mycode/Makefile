@@ -66,7 +66,7 @@ C_SRC    = $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/ADXL345_I2C.cpp \
 	   $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/VictorSP.cpp \
 	   $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/XboxController.cpp \
 	   $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/Internal/HardwareHLReporting.cpp \
-           $(ROOT_DIR)ntcore-master/src/Dispatcher.cpp \
+	   $(ROOT_DIR)ntcore-master/src/Dispatcher.cpp \
 	   $(ROOT_DIR)ntcore-master/src/DsClient.cpp \
 	   $(ROOT_DIR)ntcore-master/src/Log.cpp \
 	   $(ROOT_DIR)ntcore-master/src/Message.cpp \
@@ -101,7 +101,7 @@ C_SRC    = $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/ADXL345_I2C.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/support/raw_socket_istream.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/support/raw_socket_ostream.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/support/timestamp.cpp \
-           $(ROOT_DIR)ntcore-master/wpiutil/src/tcpsockets/SocketError.cpp \
+	   $(ROOT_DIR)ntcore-master/wpiutil/src/tcpsockets/SocketError.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/tcpsockets/TCPAcceptor.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/tcpsockets/TCPConnector.cpp \
 	   $(ROOT_DIR)ntcore-master/wpiutil/src/tcpsockets/TCPStream.cpp \
@@ -185,8 +185,13 @@ C_SRC    = $(ROOT_DIR)allwpilib-master/wpilibc/athena/src/ADXL345_I2C.cpp \
 	   $(ROOT_DIR)allwpilib-master/wpilibc/shared/src/SmartDashboard/SendableChooserBase.cpp \
 	   $(ROOT_DIR)allwpilib-master/wpilibc/shared/src/SmartDashboard/SmartDashboard.cpp \
 	   $(ROOT_DIR)/pi-libraries/FRCComm.cpp \
+	   $(ROOT_DIR)/pi-libraries/CAN.cpp \
+	   $(ROOT_DIR)/pi-libraries/AICalibration.cpp \
 	   $(ROOT_DIR)/pi-libraries/tSystem.cpp \
 	   $(ROOT_DIR)/pi-libraries/tAlarm.cpp \
+	   $(ROOT_DIR)/pi-libraries/tAO.cpp \
+	   $(ROOT_DIR)/pi-libraries/tAI.cpp \
+	   $(ROOT_DIR)/pi-libraries/tAccumulator.cpp \
 	   $(ROOT_DIR)/pi-libraries/theRelay.cpp \
 	   $(ROOT_DIR)/pi-libraries/thePWM.cpp \
 	   $(ROOT_DIR)/pi-libraries/theGlobal.cpp \

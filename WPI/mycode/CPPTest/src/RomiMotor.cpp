@@ -57,8 +57,6 @@ void RomiMotor::Set(double value)
         powerToSend *= -1;
     }
 
-    printf("power:%d\n", powerToSend);
-
     uint8_t data[5];
     uint8_t dataLength = 5;
     uint8_t recLength = 4;
@@ -77,9 +75,9 @@ void RomiMotor::Set(double value)
 
     data[4] = CalcCheckByte(data, 0, 4);
     
-    printf("%x %x %x %x %x\n",
-        data[0], data[1], data[2], data[3],
-        data[4]);
+    //printf("%x %x %x %x %x\n",
+    //    data[0], data[1], data[2], data[3],
+    //    data[4]);
 
     mI2C.Transaction(data, dataLength, recData, recLength);
 }
