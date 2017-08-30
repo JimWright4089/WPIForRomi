@@ -1,16 +1,27 @@
-﻿using System;
+﻿//----------------------------------------------------------------------------
+//
+//  $Workfile: PointChart.cs$
+//
+//  $Revision: X$
+//
+//  Project:    Robot Network Data Objects
+//
+//                            Copyright (c) 2017
+//                              James A Wright
+//                            All Rights Reserved
+//
+//  Modification History:
+//  $Log:
+//  $
+//
+//----------------------------------------------------------------------------
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 
 using NetworkTablesInterface;
-using NetTables;
 
 namespace NetworkTablesGraph
 {
@@ -28,7 +39,6 @@ namespace NetworkTablesGraph
         //  Class constants
         //----------------------------------------------------------------------------
         public const int MAX_DATA_POINTS = 800;
-//        const int HEIGHT = 400;
         const int BOTTOM_OFFSET = 280;
         const int SIDE_OFFSET = 80;
         const int TOP_OFFSET = 20;
@@ -52,7 +62,7 @@ namespace NetworkTablesGraph
         PointChart mPointChart = new PointChart();
         List<DataChannel> mChannels = new List<DataChannel>();
         ConfigureFile mConfig = new ConfigureFile();
-        NetTables.NetTables mNetTable = new NetTables.NetTables();
+        ConfigureFile mIPConfig = new ConfigureFile();
 
         //----------------------------------------------------------------------------
         //  Purpose:
@@ -66,7 +76,7 @@ namespace NetworkTablesGraph
         {
             InitializeComponent();
 
-            NetworkTable.StartClient("192.168.143.124", 1735);
+            NetworkTable.StartClient(mIPConfig.mIPAddress, mIPConfig.mPort);
 
             mPointChart = new PointChart(LEFT_OFFSET, TOP_OFFSET, GetPoints(), this.Size.Height - BOTTOM_OFFSET);
 
@@ -193,7 +203,7 @@ namespace NetworkTablesGraph
         {
             for (int i = 0; i < mChannels.Count;i++)
             {
-                mChannels[i].mNTItem.AddPoint(mChannels[i].GetPoint(mNetTable));
+                mChannels[i].mNTItem.AddPoint(mChannels[i].GetPoint());
             }
 
             this.Invalidate();
@@ -348,7 +358,7 @@ namespace NetworkTablesGraph
 
         private void NetworkTablesGraph_FormClosing(object sender, FormClosingEventArgs e)
         {
-            mNetTable.Stop();
+            NetworkTable.StopClient();
         }
     }
 
@@ -483,24 +493,11 @@ namespace NetworkTablesGraph
         //      None
         //
         //----------------------------------------------------------------------------
-        public double GetPoint(NetTables.NetTables netTable)
+        public double GetPoint()
         {
             
             mCur = mOffset + (mMult * NetworkTable.GetEntryValueDouble(mKey));
-            //mCur = (NetworkTable.GetEntryValueDouble("/datatable/x"));
-            /*
-            double value = 0.0;
-            NetTables.NetTablesEntry entry = netTable.GetEntry(mKey);
-            if (entry.GetTheType() == NetTables.NetTablesEntry.EntryType.BOOLEAN)
-            {
-                value = ((NetTables.BooleanEntry)entry).ReturnBool() ? 1 : 0;
-            }
-            if (entry.GetTheType() == NetTables.NetTablesEntry.EntryType.DOUBLE)
-            {
-                value = ((NetTables.DoubleEntry)entry).ReturnDouble();
-            }
-            mCur = mOffset + (mMult * value);
-            */
+
             if (mMax < mCur)
             {
                 mMax = mCur;
@@ -557,6 +554,5 @@ namespace NetworkTablesGraph
 
             node.AppendChild(newNode);
         }
-
     }
 }

@@ -14,3 +14,11 @@ C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.Propert
 C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.csproj.GenerateResource.Cache
 C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.exe
 C:\JimsCode\CS\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.Properties.Resources.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.csproj.GenerateResource.Cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.exe.config
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.pdb

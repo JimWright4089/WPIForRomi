@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServerCSharpTest));
             this.tDisplay = new System.Windows.Forms.Timer(this.components);
             this.lSin = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.lSin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ServerCSharpTest";
             this.Text = "Server CSharp Test";
             this.ResumeLayout(false);

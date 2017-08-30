@@ -1,33 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//----------------------------------------------------------------------------
+//
+//  $Workfile: ServerCSharpTest.cs$
+//
+//  $Revision: X$
+//
+//  Project:    Networktables C#
+//
+//                            Copyright (c) 2017
+//                               James A Wright
+//                            All Rights Reserved
+//
+//  Modification History:
+//  $Log:
+//  $
+//
+//----------------------------------------------------------------------------
+using System;
 using System.Windows.Forms;
-
 using NetworkTablesInterface;
 
 namespace ClientCSharpTest
 {
+    //----------------------------------------------------------------------------
+    //  Class Declarations
+    //----------------------------------------------------------------------------
+    //
+    // Class Name: ClientCSharpTest
+    // 
+    // Purpose:
+    //      This class tests the Networktable Client
+    //
+    //----------------------------------------------------------------------------
     public partial class ClientCSharpTest : Form
     {
+        //----------------------------------------------------------------------------
+        //  Class Attributes 
+        //----------------------------------------------------------------------------
         double mOldData = 0;
         DateTime mOldTime = DateTime.Now;
         long mTotalTime = 0;
         long mCount = 0;
 
+        //--------------------------------------------------------------------
+        // Purpose:
+        //     Constructor.
+        //
+        // Notes:
+        //     None.
+        //--------------------------------------------------------------------
         public ClientCSharpTest()
         {
             InitializeComponent();
 
-            NetworkTable.StartClient("192.168.143.124", 1735);
+            NetworkTable.StartClient("127.0.0.1", 1735);
 
             tDisplay.Enabled = true;
         }
 
+        //--------------------------------------------------------------------
+        // Purpose:
+        //     Display Timer Tick
+        //
+        // Notes:
+        //     None.
+        //--------------------------------------------------------------------
         private void tDisplay_Tick(object sender, EventArgs e)
         {
             double sin = NetworkTable.GetEntryValueDouble("/datatable/x");
@@ -53,7 +89,6 @@ namespace ClientCSharpTest
                 mOldTime = DateTime.Now;
                 mOldData = sin;
             }
-
         }
     }
 }

@@ -1,7 +1,0 @@
-E:\JimsCode\NetworkTables\NetTablesTest\bin\Debug\NetTablesTest.dll
-E:\JimsCode\NetworkTables\NetTablesTest\bin\Debug\NetTablesTest.pdb
-E:\JimsCode\NetworkTables\NetTablesTest\bin\Debug\NetTables.dll
-E:\JimsCode\NetworkTables\NetTablesTest\bin\Debug\NetTables.pdb
-E:\JimsCode\NetworkTables\NetTablesTest\obj\Debug\NetTablesTest.csprojResolveAssemblyReference.cache
-E:\JimsCode\NetworkTables\NetTablesTest\obj\Debug\NetTablesTest.dll
-E:\JimsCode\NetworkTables\NetTablesTest\obj\Debug\NetTablesTest.pdb

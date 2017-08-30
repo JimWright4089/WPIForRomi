@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientCSharpTest));
             this.lDouble = new System.Windows.Forms.Label();
             this.tDisplay = new System.Windows.Forms.Timer(this.components);
             this.lTime = new System.Windows.Forms.Label();
@@ -114,6 +115,7 @@
             this.Controls.Add(this.lBool);
             this.Controls.Add(this.lTime);
             this.Controls.Add(this.lDouble);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ClientCSharpTest";
             this.Text = "Client CSharp Test";
             this.ResumeLayout(false);

@@ -1,22 +1,57 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//----------------------------------------------------------------------------
+//
+//  $Workfile: ConfigureFile.cs$
+//
+//  $Revision: X$
+//
+//  Project:    Networktables C#
+//
+//                            Copyright (c) 2017
+//                               James A Wright
+//                            All Rights Reserved
+//
+//  Modification History:
+//  $Log:
+//  $
+//
+//----------------------------------------------------------------------------
 using System.Xml;
 
 namespace NetworkTablesInterface
 {
+    //----------------------------------------------------------------------------
+    //  Class Declarations
+    //----------------------------------------------------------------------------
+    //
+    // Class Name: ConfigureFile
+    // 
+    // Purpose:
+    //      This class loads in the config XML File
+    //
+    //----------------------------------------------------------------------------
     public class ConfigureFile
     {
+        //----------------------------------------------------------------------------
+        //  Class Constants 
+        //----------------------------------------------------------------------------
         const string SETTINGS_TAG = "Settings";
         const string IPADDRESS_TAG = "IPAddress";
         const string PORT_TAG = "Port";
         const string SETTING_FILE = "NetworkTablesSettings.xml";
 
+        //----------------------------------------------------------------------------
+        //  Class Attributes 
+        //----------------------------------------------------------------------------
         public string mIPAddress = "127.0.0.1";
         public int mPort = 1000;
 
+        //--------------------------------------------------------------------
+        // Purpose:
+        //     Constructor.
+        //
+        // Notes:
+        //     None.
+        //--------------------------------------------------------------------
         public ConfigureFile()
         {
             XmlDocument doc = new XmlDocument();

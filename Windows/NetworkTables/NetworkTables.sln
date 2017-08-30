@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkTables", "NetworkTables\NetworkTables.vcxproj", "{CED274DF-B8BE-47E3-B1CC-4D07993E11FC}"
 EndProject
@@ -12,10 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCSharpTest", "ServerCSharpTest\ServerCSharpTest.csproj", "{74B4BEBD-45EC-4B17-8023-E84E556C5356}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkTablesGraph", "NetworkTablesGraph\NetworkTablesGraph.csproj", "{DB2D694A-0BBB-4154-859B-9161B00A1B0D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTables", "NetTables\NetTables.csproj", "{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTablesTest", "NetTablesTest\NetTablesTest.csproj", "{874FA86D-0699-49F8-8907-B6982903FECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,26 +73,6 @@ Global
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Win32.ActiveCfg = Release|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{DBA15C11-700C-4A7A-ABD4-668C3B1C3030}.Release|Win32.ActiveCfg = Release|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{874FA86D-0699-49F8-8907-B6982903FECF}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

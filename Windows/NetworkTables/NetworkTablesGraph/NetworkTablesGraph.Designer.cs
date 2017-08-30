@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NetworkTablesGraph));
             this.tDisplay = new System.Windows.Forms.Timer(this.components);
             this.lvChannels = new ListViewNF();
             this.chKey = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -54,7 +55,7 @@
             // 
             // tDisplay
             // 
-            this.tDisplay.Interval = 5;
+            this.tDisplay.Interval = 10;
             this.tDisplay.Tick += new System.EventHandler(this.tDisplay_Tick);
             // 
             // lvChannels
@@ -244,6 +245,7 @@
             this.Controls.Add(this.bAdd);
             this.Controls.Add(this.lvChannels);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NetworkTablesGraph";
             this.Text = "Graph";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.NetworkTablesGraph_FormClosing);

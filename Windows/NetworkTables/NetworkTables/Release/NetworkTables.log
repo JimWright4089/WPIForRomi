@@ -1,81 +1,207 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: Two or more files with the name of NetworkTable.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\NTCore\src\networktables\NetworkTable.cpp, NetworkTable.cpp.
   Dispatcher.cpp
-c:\jimscode\cs\networktables\ntcore\src\Dispatcher.h(20): fatal error C1083: Cannot open include file: 'llvm/StringRef.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(114): warning C4005: 'ERROR': macro redefinition
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\Log.h(33): note: see previous definition of 'ERROR'
   DsClient.cpp
-c:\jimscode\cs\networktables\ntcore\src\DsClient.h(11): fatal error C1083: Cannot open include file: 'support/atomic_static.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/StringRef.h(389): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+  ..\NTCore\src\DsClient.cpp(121): note: see reference to function template instantiation 'bool llvm::StringRef::getAsInteger<unsigned int>(unsigned int,T &) const' being compiled
+          with
+          [
+              T=unsigned int
+          ]
   Log.cpp
-c:\jimscode\cs\networktables\ntcore\src\Log.h(11): fatal error C1083: Cannot open include file: 'support/atomic_static.h': No such file or directory
   Message.cpp
-c:\jimscode\cs\networktables\ntcore\src\Message.h(15): fatal error C1083: Cannot open include file: 'nt_Value.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   NetworkConnection.cpp
-c:\jimscode\cs\networktables\ntcore\src\NetworkConnection.h(16): fatal error C1083: Cannot open include file: 'support/ConcurrentQueue.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
   NetworkTable.cpp
-..\NTCore\src\networktables\NetworkTable.cpp(1): fatal error C1083: Cannot open include file: 'networktables/NetworkTable.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   Notifier.cpp
-c:\jimscode\cs\networktables\ntcore\src\Notifier.h(13): fatal error C1083: Cannot open include file: 'support/atomic_static.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   ntcore_c.cpp
-..\NTCore\src\ntcore_c.cpp(8): fatal error C1083: Cannot open include file: 'ntcore.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   ntcore_cpp.cpp
-..\NTCore\src\ntcore_cpp.cpp(8): fatal error C1083: Cannot open include file: 'ntcore.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
   ntcore_test.cpp
-..\NTCore\src\ntcore_test.cpp(8): fatal error C1083: Cannot open include file: 'ntcore_test.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   RpcServer.cpp
-c:\jimscode\cs\networktables\ntcore\src\RpcServer.h(17): fatal error C1083: Cannot open include file: 'llvm/DenseMap.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(318): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(312): note: while compiling class template member function 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)'
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(658): note: see reference to function template instantiation 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(586): note: see reference to class template instantiation 'llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\RpcServer.h(81): note: see reference to class template instantiation 'llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc
+          ]
   SequenceNumber.cpp
   Storage.cpp
-c:\jimscode\cs\networktables\ntcore\src\Storage.h(20): fatal error C1083: Cannot open include file: 'llvm/DenseMap.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(318): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(312): note: while compiling class template member function 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)'
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(658): note: see reference to function template instantiation 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(586): note: see reference to class template instantiation 'llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\Storage.h(155): note: see reference to class template instantiation 'llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string
+          ]
   ITableListener.cpp
-..\NTCore\src\tables\ITableListener.cpp(1): fatal error C1083: Cannot open include file: 'tables/ITableListener.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   TableKeyNotDefinedException.cpp
-..\NTCore\src\tables\TableKeyNotDefinedException.cpp(8): fatal error C1083: Cannot open include file: 'tables/TableKeyNotDefinedException.h': No such file or directory
   Value.cpp
-..\NTCore\src\Value.cpp(8): fatal error C1083: Cannot open include file: 'nt_Value.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   WireDecoder.cpp
-c:\jimscode\cs\networktables\ntcore\src\WireDecoder.h(13): fatal error C1083: Cannot open include file: 'nt_Value.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   WireEncoder.cpp
-c:\jimscode\cs\networktables\ntcore\src\WireEncoder.h(14): fatal error C1083: Cannot open include file: 'llvm/SmallVector.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   ConvertUTF.cpp
-..\NTCore\wpiutil\src\llvm\ConvertUTF.cpp(50): fatal error C1083: Cannot open include file: 'llvm/ConvertUTF.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   ConvertUTFWrapper.cpp
-..\NTCore\wpiutil\src\llvm\ConvertUTFWrapper.cpp(10): fatal error C1083: Cannot open include file: 'llvm/ConvertUTF.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   Compiling...
   ErrorHandling.cpp
-..\NTCore\wpiutil\src\llvm\ErrorHandling.cpp(15): fatal error C1083: Cannot open include file: 'llvm/WindowsError.h': No such file or directory
   Hashing.cpp
-..\NTCore\wpiutil\src\llvm\Hashing.cpp(16): fatal error C1083: Cannot open include file: 'llvm/Hashing.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   raw_ostream.cpp
-..\NTCore\wpiutil\src\llvm\raw_ostream.cpp(14): fatal error C1083: Cannot open include file: 'llvm/raw_ostream.h': No such file or directory
+..\NTCore\wpiutil\src\llvm\raw_ostream.cpp(742): warning C4244: 'argument': conversion from 'uint64_t' to 'long', possible loss of data
   raw_os_ostream.cpp
-..\NTCore\wpiutil\src\llvm\raw_os_ostream.cpp(14): fatal error C1083: Cannot open include file: 'llvm/raw_os_ostream.h': No such file or directory
   SmallPtrSet.cpp
-..\NTCore\wpiutil\src\llvm\SmallPtrSet.cpp(15): fatal error C1083: Cannot open include file: 'llvm/SmallPtrSet.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   SmallVector.cpp
-..\NTCore\wpiutil\src\llvm\SmallVector.cpp(14): fatal error C1083: Cannot open include file: 'llvm/SmallVector.h': No such file or directory
   StringExtras.cpp
-..\NTCore\wpiutil\src\llvm\StringExtras.cpp(14): fatal error C1083: Cannot open include file: 'llvm/StringExtras.h': No such file or directory
   StringMap.cpp
-..\NTCore\wpiutil\src\llvm\StringMap.cpp(14): fatal error C1083: Cannot open include file: 'llvm/StringMap.h': No such file or directory
+..\NTCore\wpiutil\src\llvm\StringMap.cpp(29): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
   StringRef.cpp
-..\NTCore\wpiutil\src\llvm\StringRef.cpp(10): fatal error C1083: Cannot open include file: 'llvm/StringRef.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+..\NTCore\wpiutil\src\llvm\StringRef.cpp(176): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(452): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(479): note: see reference to function template instantiation 'llvm::hash_code llvm::hashing::detail::hash_combine_range_impl<const char>(ValueT *,ValueT *)' being compiled
+          with
+          [
+              ValueT=const char
+          ]
+  ..\NTCore\wpiutil\src\llvm\StringRef.cpp(451): note: see reference to function template instantiation 'llvm::hash_code llvm::hash_combine_range<llvm::StringRef::iterator>(InputIteratorT,InputIteratorT)' being compiled
+          with
+          [
+              InputIteratorT=llvm::StringRef::iterator
+          ]
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(464): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
   Base64.cpp
-..\NTCore\wpiutil\src\support\Base64.cpp(65): fatal error C1083: Cannot open include file: 'support/Base64.h': No such file or directory
   leb128.cpp
-..\NTCore\wpiutil\src\support\leb128.cpp(8): fatal error C1083: Cannot open include file: 'support/leb128.h': No such file or directory
   raw_istream.cpp
-..\NTCore\wpiutil\src\support\raw_istream.cpp(8): fatal error C1083: Cannot open include file: 'support/raw_istream.h': No such file or directory
   raw_socket_istream.cpp
-..\NTCore\wpiutil\src\support\raw_socket_istream.cpp(8): fatal error C1083: Cannot open include file: 'support/raw_socket_istream.h': No such file or directory
   raw_socket_ostream.cpp
-..\NTCore\wpiutil\src\support\raw_socket_ostream.cpp(8): fatal error C1083: Cannot open include file: 'support/raw_socket_ostream.h': No such file or directory
   timestamp.cpp
-..\NTCore\wpiutil\src\support\timestamp.cpp(7): fatal error C1083: Cannot open include file: 'support/timestamp.h': No such file or directory
   SocketError.cpp
-..\NTCore\wpiutil\src\tcpsockets\SocketError.cpp(8): fatal error C1083: Cannot open include file: 'tcpsockets/SocketError.h': No such file or directory
   TCPAcceptor.cpp
-..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(24): fatal error C1083: Cannot open include file: 'tcpsockets/TCPAcceptor.h': No such file or directory
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(147): warning C4101: 'valopt': unreferenced local variable
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(146): warning C4101: 'tv': unreferenced local variable
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(145): warning C4101: 'sdset': unreferenced local variable
   TCPConnector.cpp
-..\NTCore\wpiutil\src\tcpsockets\TCPConnector.cpp(24): fatal error C1083: Cannot open include file: 'tcpsockets/TCPConnector.h': No such file or directory
   TCPStream.cpp
-..\NTCore\wpiutil\src\tcpsockets\TCPStream.cpp(24): fatal error C1083: Cannot open include file: 'tcpsockets/TCPStream.h': No such file or directory
   NetworkTable.cpp
-NetworkTable.cpp(6): fatal error C1083: Cannot open include file: 'ntcore.h': No such file or directory
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+Release\NetworkTable.obj : warning LNK4042: object specified more than once; extras ignored
+     Creating library C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.lib and object C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.exp
+  Generating code
+  All 4525 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.dll
+  NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.pdb (Full PDB)

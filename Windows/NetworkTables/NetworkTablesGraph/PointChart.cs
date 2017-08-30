@@ -37,9 +37,14 @@ namespace NetworkTablesGraph
     //----------------------------------------------------------------------------
     class PointChart
     {
+        //----------------------------------------------------------------------------
+        //  Class Constants 
+        //----------------------------------------------------------------------------
         const int CIRCLE_SIZE = 2;
-//        const double MAX_POINTS = mMaxPoint - MIN_POINT;
 
+        //----------------------------------------------------------------------------
+        //  Class Attributes 
+        //----------------------------------------------------------------------------
         double mMinPoint = -100;
         double mMaxPoint = 100;
         int mCountDivSize = 50;
@@ -342,6 +347,4 @@ namespace NetworkTablesGraph
             return MAX_VALUE;
         }
     }
-
-
 }

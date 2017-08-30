@@ -11,3 +11,17 @@ C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.P
 C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.csproj.GenerateResource.Cache
 C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.exe
 C:\JimsCode\CS\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.exe.config
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesGraph.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesInterface.dll
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\bin\Release\NetworkTablesInterface.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.NetworkTablesGraph.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.Properties.Resources.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.csproj.GenerateResource.Cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Release\NetworkTablesGraph.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTablesGraph.exe.config
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTablesGraph.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTablesGraph.pdb
