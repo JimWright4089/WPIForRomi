@@ -25,3 +25,4 @@ C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Debug\Networ
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Debug\NetworkTablesGraph.csproj.GenerateResource.Cache
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Debug\NetworkTablesGraph.exe
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Debug\NetworkTablesGraph.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesGraph\obj\Debug\NetworkTablesGraph.csproj.CoreCompileInputs.cache

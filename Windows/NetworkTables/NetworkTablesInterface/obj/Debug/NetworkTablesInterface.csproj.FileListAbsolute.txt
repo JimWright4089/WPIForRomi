@@ -13,3 +13,5 @@ C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTablesInterface.dll
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTablesInterface.pdb
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.dll
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NetworkTablesInterface\obj\Debug\NetworkTablesInterface.csproj.CoreCompileInputs.cache

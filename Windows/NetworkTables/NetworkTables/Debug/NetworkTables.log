@@ -202,7 +202,7 @@ LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
 Debug\NetworkTable.obj : warning LNK4042: object specified more than once; extras ignored
      Creating library C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTables.lib and object C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTables.exp
   Generating code
-  All 4906 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 3930 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTables.dll
   NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\NetworkTables.pdb (Partial PDB)

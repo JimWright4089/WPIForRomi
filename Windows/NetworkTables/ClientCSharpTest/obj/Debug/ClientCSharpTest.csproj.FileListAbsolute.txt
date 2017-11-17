@@ -22,3 +22,5 @@ C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCS
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.exe.config
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.exe
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\Debug\ClientCSharpTest.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.ClientCSharpTest.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ClientCSharpTest\obj\Debug\ClientCSharpTest.csproj.CoreCompileInputs.cache

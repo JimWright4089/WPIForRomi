@@ -1,20 +1,8 @@
 <Channels>
   <Channel>
-    <Key>/datatable/y</Key>
+    <Key>/sin/sin</Key>
     <Color>Red</Color>
     <Mult>50</Mult>
-    <Offset>0</Offset>
-  </Channel>
-  <Channel>
-    <Key>/datatable/x</Key>
-    <Color>Blue</Color>
-    <Mult>50</Mult>
-    <Offset>0</Offset>
-  </Channel>
-  <Channel>
-    <Key>/CamTable/Y</Key>
-    <Color>Green</Color>
-    <Mult>1</Mult>
     <Offset>0</Offset>
   </Channel>
 </Channels>
