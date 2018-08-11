@@ -1,20 +1,44 @@
 <Channels>
   <Channel>
-    <Key>/datatable/y</Key>
-    <Color>Red</Color>
-    <Mult>50</Mult>
-    <Offset>0</Offset>
-  </Channel>
-  <Channel>
-    <Key>/datatable/x</Key>
-    <Color>Blue</Color>
-    <Mult>50</Mult>
-    <Offset>0</Offset>
-  </Channel>
-  <Channel>
-    <Key>/CamTable/Y</Key>
+    <Key>/FRCRobot/setPoint</Key>
     <Color>Green</Color>
+    <Mult>0.025</Mult>
+    <Offset>0</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/curPoint</Key>
+    <Color>Blue</Color>
+    <Mult>0.025</Mult>
+    <Offset>0</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/power</Key>
+    <Color>Purple</Color>
     <Mult>1</Mult>
+    <Offset>0</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/error</Key>
+    <Color>Red</Color>
+    <Mult>0.05</Mult>
+    <Offset>30</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/power</Key>
+    <Color>Purple</Color>
+    <Mult>50</Mult>
+    <Offset>-50</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/derivative</Key>
+    <Color>Gray</Color>
+    <Mult>0.05</Mult>
+    <Offset>-50</Offset>
+  </Channel>
+  <Channel>
+    <Key>/FRCRobot/integral</Key>
+    <Color>Maroon</Color>
+    <Mult>0.05</Mult>
     <Offset>0</Offset>
   </Channel>
 </Channels>

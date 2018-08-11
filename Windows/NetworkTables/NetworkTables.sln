@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkTables", "NetworkTables\NetworkTables.vcxproj", "{CED274DF-B8BE-47E3-B1CC-4D07993E11FC}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCSharpTest", "ServerCSharpTest\ServerCSharpTest.csproj", "{74B4BEBD-45EC-4B17-8023-E84E556C5356}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkTablesGraph", "NetworkTablesGraph\NetworkTablesGraph.csproj", "{DB2D694A-0BBB-4154-859B-9161B00A1B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRC4089AutoSetter", "FRC4089AutoSetter\FRC4089AutoSetter.csproj", "{6D188A94-441F-439C-BEBA-3FD47E1F2100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,8 +75,23 @@ Global
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{DB2D694A-0BBB-4154-859B-9161B00A1B0D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Debug|Win32.Build.0 = Debug|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Win32.ActiveCfg = Release|Any CPU
+		{6D188A94-441F-439C-BEBA-3FD47E1F2100}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA10C673-2A0C-4CAD-994F-3CA653D06774}
 	EndGlobalSection
 EndGlobal

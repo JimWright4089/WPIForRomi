@@ -495,25 +495,25 @@ namespace NetworkTablesGraph
         //----------------------------------------------------------------------------
         public double GetPoint()
         {
-            
-            mCur = mOffset + (mMult * NetworkTable.GetEntryValueDouble(mKey));
+            double realValue = NetworkTable.GetEntryValueDouble(mKey);
+            mCur = mOffset + (mMult * realValue);
 
-            if (mMax < mCur)
+            if (mMax < realValue)
             {
-                mMax = mCur;
+                mMax = realValue;
             }
-            if (mMin > mCur)
+            if (mMin > realValue)
             {
-                mMin = mCur;
+                mMin = realValue;
             }
 
-            mTotal += mCur;
+            mTotal += realValue;
             mCount++;
             mMean = mTotal / (double)mCount;
 
             if (null != mLVItem)
             {
-                mLVItem.SubItems[NetworkTablesGraph.LV_COL_CUR_VALUE].Text = mCur.ToString("F3");
+                mLVItem.SubItems[NetworkTablesGraph.LV_COL_CUR_VALUE].Text = realValue.ToString("F3");
                 mLVItem.SubItems[NetworkTablesGraph.LV_COL_MIN].Text = mMin.ToString("F3");
                 mLVItem.SubItems[NetworkTablesGraph.LV_COL_MEAN].Text = mMean.ToString("F3");
                 mLVItem.SubItems[NetworkTablesGraph.LV_COL_MAX].Text = mMax.ToString("F3");

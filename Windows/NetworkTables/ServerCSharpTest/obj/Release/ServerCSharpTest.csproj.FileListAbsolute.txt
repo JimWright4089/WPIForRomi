@@ -17,3 +17,4 @@ C:\JimsCode\WPIForRomi\Windows\NetworkTables\ServerCSharpTest\obj\Release\Server
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\ServerCSharpTest\obj\Release\ServerCSharpTest.exe
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\ServerCSharpTest\obj\Release\ServerCSharpTest.pdb
 C:\JimsCode\WPIForRomi\Windows\NetworkTables\ServerCSharpTest\obj\Release\ServerCSharpTest.ServerCSharpTest.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\ServerCSharpTest\obj\Release\ServerCSharpTest.csproj.CoreCompileInputs.cache

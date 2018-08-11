@@ -1,0 +1,17 @@
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\bin\Debug\FRC4089AutoSetter.exe.config
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\bin\Debug\FRC4089AutoSetter.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\bin\Debug\FRC4089AutoSetter.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.csprojResolveAssemblyReference.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\MainWindow.g.cs
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\App.g.cs
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter_MarkupCompile.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter_MarkupCompile.lref
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\MainWindow.baml
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.g.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.Properties.Resources.resources
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.csproj.GenerateResource.Cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.csproj.CoreCompileInputs.cache
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.exe
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\obj\Debug\FRC4089AutoSetter.pdb
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\bin\Debug\NetworkTablesInterface.dll
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\FRC4089AutoSetter\bin\Debug\NetworkTablesInterface.pdb
