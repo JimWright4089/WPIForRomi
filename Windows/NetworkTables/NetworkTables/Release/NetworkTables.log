@@ -1,3 +1,207 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: Two or more files with the name of NetworkTable.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\NTCore\src\networktables\NetworkTable.cpp, NetworkTable.cpp.
-LINK : fatal error C1047: The object or library file 'Release\SequenceNumber.obj' was created with an older compiler than other objects; rebuild old objects and libraries
-LINK : fatal error LNK1257: code generation failed
+  Dispatcher.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(114): warning C4005: 'ERROR': macro redefinition
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\Log.h(33): note: see previous definition of 'ERROR'
+  DsClient.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/StringRef.h(389): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+  ..\NTCore\src\DsClient.cpp(121): note: see reference to function template instantiation 'bool llvm::StringRef::getAsInteger<unsigned int>(unsigned int,T &) const' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+  Log.cpp
+  Message.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  NetworkConnection.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+  NetworkTable.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  Notifier.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  ntcore_c.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  ntcore_cpp.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+  ntcore_test.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  RpcServer.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(318): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(312): note: while compiling class template member function 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)'
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(658): note: see reference to function template instantiation 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(586): note: see reference to class template instantiation 'llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc>
+          ]
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\RpcServer.h(81): note: see reference to class template instantiation 'llvm::DenseMap<std::pair<unsigned int,unsigned int>,nt::RpcServer::SendMsgFunc,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=nt::RpcServer::SendMsgFunc
+          ]
+  SequenceNumber.cpp
+  Storage.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\support/SafeThread.h(88): warning C4522: 'wpi::detail::SafeThreadOwnerBase': multiple assignment operators specified
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(318): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(312): note: while compiling class template member function 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)'
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(658): note: see reference to function template instantiation 'unsigned int llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>::getMinBucketToReserveForEntries(unsigned int)' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/DenseMap.h(586): note: see reference to class template instantiation 'llvm::DenseMapBase<llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>,KeyT,ValueT,KeyInfoT,BucketT>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string,
+              KeyInfoT=llvm::DenseMapInfo<std::pair<unsigned int,unsigned int>>,
+              BucketT=llvm::detail::DenseMapPair<std::pair<unsigned int,unsigned int>,std::string>
+          ]
+  c:\jimscode\wpiforromi\windows\networktables\ntcore\src\Storage.h(155): note: see reference to class template instantiation 'llvm::DenseMap<std::pair<unsigned int,unsigned int>,std::string,llvm::DenseMapInfo<KeyT>,llvm::detail::DenseMapPair<KeyT,ValueT>>' being compiled
+          with
+          [
+              KeyT=std::pair<unsigned int,unsigned int>,
+              ValueT=std::string
+          ]
+  ITableListener.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  TableKeyNotDefinedException.cpp
+  Value.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  WireDecoder.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  WireEncoder.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  ConvertUTF.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  ConvertUTFWrapper.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  Compiling...
+  ErrorHandling.cpp
+  Hashing.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  raw_ostream.cpp
+..\NTCore\wpiutil\src\llvm\raw_ostream.cpp(742): warning C4244: 'argument': conversion from 'uint64_t' to 'long', possible loss of data
+  raw_os_ostream.cpp
+  SmallPtrSet.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  SmallVector.cpp
+  StringExtras.cpp
+  StringMap.cpp
+..\NTCore\wpiutil\src\llvm\StringMap.cpp(29): warning C4244: 'return': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  StringRef.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+..\NTCore\wpiutil\src\llvm\StringRef.cpp(176): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(452): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(479): note: see reference to function template instantiation 'llvm::hash_code llvm::hashing::detail::hash_combine_range_impl<const char>(ValueT *,ValueT *)' being compiled
+          with
+          [
+              ValueT=const char
+          ]
+  ..\NTCore\wpiutil\src\llvm\StringRef.cpp(451): note: see reference to function template instantiation 'llvm::hash_code llvm::hash_combine_range<llvm::StringRef::iterator>(InputIteratorT,InputIteratorT)' being compiled
+          with
+          [
+              InputIteratorT=llvm::StringRef::iterator
+          ]
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(464): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+  Base64.cpp
+  leb128.cpp
+  raw_istream.cpp
+  raw_socket_istream.cpp
+  raw_socket_ostream.cpp
+  timestamp.cpp
+  SocketError.cpp
+  TCPAcceptor.cpp
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(147): warning C4101: 'valopt': unreferenced local variable
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(146): warning C4101: 'tv': unreferenced local variable
+..\NTCore\wpiutil\src\tcpsockets\TCPAcceptor.cpp(145): warning C4101: 'sdset': unreferenced local variable
+  TCPConnector.cpp
+  TCPStream.cpp
+  NetworkTable.cpp
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(570): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(582): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+C:\JimsCode\WPIForRomi\Windows\NetworkTables\NTCore\wpiutil\include\llvm/Hashing.h(621): warning C4244: 'argument': conversion from 'uint64_t' to '::size_t', possible loss of data
+Release\NetworkTable.obj : warning LNK4042: object specified more than once; extras ignored
+     Creating library C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.lib and object C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.exp
+  Generating code
+  All 3633 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.dll
+  NetworkTables.vcxproj -> C:\JimsCode\WPIForRomi\Windows\NetworkTables\Release\NetworkTables.pdb (Full PDB)
